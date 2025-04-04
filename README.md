@@ -1,4 +1,4 @@
-#YouTube-Subtitle-Automation
+# YouTube-Subtitle-Automation
 
 YouTube-Subtitle-Automation is a Python tool that extracts audio from a video, transcribes it using the Whisper model, and burns subtitles into the video using FFmpeg. It splits text into readable chunks and distributes timestamps proportionally for a clean subtitle experience.
 
