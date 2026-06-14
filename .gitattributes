@@ -1,2 +1,14 @@
-# Auto detect text files and perform LF normalization
+# Normalize line endings to LF on commit (cross-platform consistency)
 * text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.srt text eol=lf
+
+# Binary files — don't touch line endings
+*.mp4 binary
+*.wav binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
